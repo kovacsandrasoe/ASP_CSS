@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
-            return View();
+            return View("Privacy");
         }
 
         public IActionResult Contact()

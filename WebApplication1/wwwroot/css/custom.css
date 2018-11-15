@@ -1,0 +1,61 @@
+﻿.felso, .also {
+    color: red; /*font színe*/
+}
+
+.felso {
+    /*background-color: #454545;*/
+    background-color: cornflowerblue;
+    margin-top: 15px;
+    color: white;
+    font-size: 26px;
+    padding: 3px 4px 5px 6px; /*felső-jobb-alsó-bal*/
+}
+
+.gomb {
+    background-color: black;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+}
+
+    .gomb:hover {
+        color: lawngreen;
+    }
+
+    .gomb:active {
+        color: red;
+    }
+
+    .gomb:visited {
+        /*ami linket már megnéztünk*/
+    }
+
+    .tabla{
+        text-align: center;
+    }
+
+    .btn-warning{
+        background-color: purple;
+    }
+
+
+
+/*.tablazat, th, td {
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+    .tablazat th {
+        background-color: lightgreen;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .tablazat td {
+        font-style: italic;
+        padding: 5px;
+        text-align: center;
+    }*/
